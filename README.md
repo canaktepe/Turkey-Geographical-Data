@@ -16,9 +16,9 @@ Python kullanarak veri setlerini yükleme ve temel analiz yapma örnekleri aşa�
 import pandas as pd
 
 # CSV dosyalarını yükleme
-il_data = pd.read_csv("turkey_il.csv")
-ilce_data = pd.read_csv("turkey_ilce.csv")
-mahalle_koy_data = pd.read_csv("turkey_mahalle_koy.csv")
+il_data = pd.read_csv("iller.csv")
+ilce_data = pd.read_csv("ilceler.csv")
+mahalle_koy_data = pd.read_csv("mahalleler_ve_koyler.csv")
 
 # Veri setlerini inceleme
 print("İl Veri Seti Örneği:")
